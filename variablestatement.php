@@ -56,4 +56,10 @@ if(is_int($num7)){
 }
 echo "<hr/>";
 
+$num8=NULL;
+var_dump($num8);
+if(is_null($num8)){
+    echo "Your variable is Null";
+}
+
 ?>
