@@ -37,6 +37,46 @@ echo "<br/>";
 staticvariable();
 echo "<br/>";
 staticvariable();
+echo "<hr/>";
 
+$num=20;
+function myvalue($num){
+    $num=40;
+    echo $num;
+}
+echo "this is first value from global{$num}";
+echo "<br/>";
+myvalue($num);
+echo "<br/>";
+echo "this is second value from global{$num}";
+echo "<br/>";
 
+$num=20;
+$num2=50;
+function myvale1(&$num){
+    $num=40;
+    echo $num;
+}
+echo "this is first value from global num {$num}";
+echo "<br/>";
+
+myvale1($num2);
+echo "<br/>";
+echo "this is second value from global num {$num}";
+echo "<br/>";
+echo "this is second value from global num {$num}";
+echo "<br/>";
+
+ echo "<hr/>";
+
+ $abc=20;
+ function myvale2(&$val){
+     $val=40;
+    echo $val;
+ }
+ echo "this is first value from global {$abc}";
+ echo "<br/>";
+ myvale2($abc);
+ echo "<br/>";
+ echo "this is second value from global {$abc}";
 ?>
