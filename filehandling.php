@@ -2,9 +2,9 @@
 
 //Create File
 
-//$file="fileserver/logs/test1.txt";
-//$handler=fopen($file,"w");
-//echo "file created";
+// $file="fileserver/logs/test3.txt";
+// $handler=fopen($file,"w");
+// echo "file created";
 
 //Read File
 

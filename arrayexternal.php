@@ -25,15 +25,15 @@ echo $color["two"];
 echo "<hr/>";
 
 $arr=[
-    ["name"=>"Maung Maung","age"=>"20"],
+    ["name"=>"Maung Maung","age"=>"20"],//Multidimensional Array
     ["name"=>"Mya Mya","age"=>"35"]
 ];
 
 $x=[];
 $x[0]["name"]="Aung Aung";
 $x[0]["age"]="20";
-$x[0]["name"]="Aung Aung";
-$x[0]["age"]="20";
+$x[1]["name"]="ei ei";
+$x[1]["age"]="27";
 
-echo $name[0];
+echo $x[1]["name"]."<br/>".$x[0]["name"];
 ?>

@@ -23,7 +23,7 @@ function vscope(){
 }
 echo $x;
 echo "<br/>";
-echo vscope();
+echo  vscope();
 echo "<hr/>";
 
 //static variable 
@@ -53,7 +53,7 @@ echo "<br/>";
 
 $num=20;
 $num2=50;
-function myvale1(&$num){
+function myvale1($num){
     $num=40;
     echo $num;
 }
@@ -70,7 +70,7 @@ echo "<br/>";
  echo "<hr/>";
 
  $abc=20;
- function myvale2(&$val){
+ function myvale2($val){
      $val=40;
     echo $val;
  }

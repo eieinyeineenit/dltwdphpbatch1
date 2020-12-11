@@ -37,6 +37,15 @@ if($newroleid >0){
 
 //beautyprint($database);
 }
+function passcode($pass){
+    $safepw = md5(shal1(crypt($pass,false)));
+    return $safepw;
+}
+function singledata($mail,$pass,$date){
+    $database =dbconnection();
+    $query ="INSERT INTO users(email,password,created_at) VALUES ('hlahla@gmail.com','123456','29-11-2020')";
+    
+}
 sginsert($query);
 
 function beautyprint($arr){

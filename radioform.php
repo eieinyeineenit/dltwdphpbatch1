@@ -21,7 +21,7 @@
 <?php
 
 echo "<hr/>";
-if(isset($_POST['submit'])){
+if(isset($_POST["submit"])){
     $color=$_POST['color'];
     echo "My fav color is {$color}";
 }

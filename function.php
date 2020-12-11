@@ -11,9 +11,10 @@ echo "<hr/>";
 function hellocal(){
     $num1=100;
     $num2=10;
-    $cal=($num1/$num2) +(5+5);
-    echo $cal;
-}
+//     $cal=($num1/$num2) +(5+5);
+//     echo $cal;
+    echo ($num1/$num2) +(5+5);
+ }
 hellocal();
 echo "<hr/>";
 
@@ -49,15 +50,15 @@ function defaultpp($num1=20,$num2=10,$num3=2){
     $cal=($num1+$num2)/$num3;
     echo $cal;
 }
-defaultpp(40,20);
+defaultpp(20,30);
 echo "<hr/>";
 
 //return value
 //simple function
 function simplereturn(){
-    return "My name is return function";
+return "My name is return function";
 }
-echo simplereturn(10);
+ echo simplereturn();
 echo "<br>";
 
 //parameter functiion
@@ -65,6 +66,7 @@ function singlereturn($num1){
     $cal=$num1+200;
     return $cal;
 }
+//echo singlereturn(10)
 //function abc(){
     //$val=10;
     //simplereturn(10)+$val;
@@ -104,5 +106,6 @@ if(function_exists($num1)){
 else {
     echo "No,your variable is not in function";
 }
+echo doit();
 
 ?>

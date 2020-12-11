@@ -29,7 +29,7 @@ echo"<br>";
 echo $num1/$num2;
 echo"<hr>";
 
-echo(20>10) ?"Ei Ei" :"Wai Wai";
+echo(20< 10) ?"Ei Ei" :"Wai Wai";
 
 echo"<br>";
 $a=10;

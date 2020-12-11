@@ -17,13 +17,14 @@ var_dump($val2);
 echo "<hr/>";
 var_dump($val3);
 echo "<hr/>";
+
 echo $val1[0];//manual array
 
 echo "<hr/>";
 echo $val2["four"];//associative array
 
 echo "<hr/>";
-echo $val3[2] ["name"];//multidimensional array
+echo $val3[2] ["age"];//multidimensional array
 echo "<hr/>";
 foreach($val1 as $data){
     echo $data."<br/>";//manual
@@ -32,13 +33,14 @@ echo "<hr/>";
  echo "Ass array" ."<br>";
 foreach($val2 as $key=>$value){
     echo $key."<br/>";
-    echo $value."<br/>";//associative
+     echo $value."<br/>";//associative
 }
 
 echo "<hr/>";
+echo "Multidimensional Array" ."<br/>";
 foreach($val3 as $multi){
-    foreach($multi as $single){
-    echo $single."<br/>";//multidimensional array
+    foreach($multi as $single=>$one){
+    echo $single."<br/>". $one."<br/>";//multidimensional array
 }
 }
 ?>
