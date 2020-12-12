@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="55f2f998-60c2-4280-ab4a-ca1b63dc2774" name="localhost" url="http://localhost/dltwdphpbatch1/oop">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\dltwdphpbatch1\oop" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
