@@ -6,7 +6,7 @@ class class_properties{
 }
 $obj =new class_properties();
 echo "This is Class Proprties"."<br/>";
-echo $obj->firstname . $obj->lastname;
+echo $obj->firstname ." ". $obj->lastname;
 
 
 

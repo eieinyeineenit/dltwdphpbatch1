@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bb5a481d-65be-456b-bad1-4a3db780b893" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_inheritance.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_inheritance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_accessencapsulation.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_accessencapsulation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_accessmodifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_accessmodifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_method.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_method.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_properties.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_properties.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,7 +47,11 @@
       <updated>1607795108075</updated>
       <workItem from="1607795110950" duration="4194000" />
       <workItem from="1607840459465" duration="9258000" />
-      <workItem from="1608035138291" duration="6326000" />
+      <workItem from="1608035138291" duration="9603000" />
+      <workItem from="1608360190518" duration="9974000" />
+      <workItem from="1608445282322" duration="10275000" />
+      <workItem from="1608563125149" duration="6644000" />
+      <workItem from="1608725569305" duration="16433000" />
     </task>
     <servers />
   </component>

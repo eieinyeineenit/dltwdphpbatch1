@@ -12,7 +12,7 @@ class class_method{
         echo "Have a good day";
     }
 // Method Overloading
-    public function calculate($num=1){
+    public function calculate($num){
         echo "Getting number is = ${num}";
     }
 }

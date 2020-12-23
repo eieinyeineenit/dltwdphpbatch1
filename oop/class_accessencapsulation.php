@@ -3,6 +3,7 @@ class class_accessencapsulation{
     private $fullname="Kyaw Kyaw";
 
     public function getter(){
+//        $this->fullname ="kaung kaung";
         echo $this->fullname;
     }
 

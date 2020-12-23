@@ -14,5 +14,6 @@ public function getnum(){
 $obj=new class_accessmodifier;
 echo "This is CLass Access Modifier"."<br/>";
 echo $obj->fullname;
-//echo $obj->getnum();
+echo "<br/>";
+echo $obj->getnum();
 ?>
