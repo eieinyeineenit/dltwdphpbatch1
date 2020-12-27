@@ -48,7 +48,7 @@ $obj = new datatypecasting();
 //$obj->typecastingbybool(TRUE);
 
 //$obj->typecastingbyarray(40.9);
-echo "<br/>";
+//echo "<br/>";
 //$obj->typecastingbyarray("a");
 echo "<br/>";
 $obj->typecastingbyarray(["aung","Kyaw"]);

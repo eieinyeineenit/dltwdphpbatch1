@@ -32,7 +32,7 @@ class returndatatype{
 
 $obj=new returndatatype();
 echo "This is return Data type"."<br/>";
-//$test = $obj->stroutput("aung aung");
+$test = $obj->stroutput("aung aung");
 //$test = $obj->stroutput("aung aung");
 //$test = $obj->stroutput("aung aung");
 //var_dump($test);

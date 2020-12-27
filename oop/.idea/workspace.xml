@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5a481d-65be-456b-bad1-4a3db780b893" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_accessencapsulation.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_accessencapsulation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_accessmodifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_accessmodifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_method.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_method.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_properties.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_properties.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatypecasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/datatypecasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/returndatatype.php" beforeDir="false" afterPath="$PROJECT_DIR$/returndatatype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serializeandunserialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/serializeandunserialize.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +15,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composerautoload/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/composerautoload/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1lZCDJBXYquPwAERrBLxLtSrd35" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -37,6 +51,16 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop" />
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\composerautoload" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\composerautoload\app\auth" />
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\composerautoload\app" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,11 +75,32 @@
       <workItem from="1608360190518" duration="9974000" />
       <workItem from="1608445282322" duration="10275000" />
       <workItem from="1608563125149" duration="6644000" />
-      <workItem from="1608725569305" duration="16433000" />
+      <workItem from="1608725569305" duration="16996000" />
+      <workItem from="1608964112349" duration="7739000" />
+      <workItem from="1608989741836" duration="8410000" />
+      <workItem from="1609049942145" duration="8519000" />
+      <workItem from="1609060631364" duration="4329000" />
+      <workItem from="1609074673307" duration="9285000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/class_abstractmethod.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/coalesce.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

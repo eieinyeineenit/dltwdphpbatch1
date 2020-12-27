@@ -8,15 +8,17 @@ beautyprint($myarr);
 //Serialize
 
 $slz = serialize($myarr);
-var_dump($slz);
+//var_dump($slz);
 echo $slz;
 
-//$unslz = unserialize($slz);
+$unslz = unserialize($slz);
 
 beautyprint($unslz);
 
 function beautyprint($arr){
-    echo "<pre>".print_r($arr,true),"<pre/>";
+    echo "<pre>".print_r($arr,true)."<pre/>";
 }
 
 ?>
+<!--function beautyprint($arr){-->
+<!--echo "<pre>".print_r($arr,true)."</pre>";-->
