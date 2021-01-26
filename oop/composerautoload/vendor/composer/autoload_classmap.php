@@ -10,4 +10,5 @@ return array(
     'class_admin' => $baseDir . '/app/admin/class_admin.php',
     'class_auth' => $baseDir . '/app/auth/class_auth.php',
     'class_migration' => $baseDir . '/app/auth/migration/class_migration.php',
+    'class_news' => $baseDir . '/info/class_news.php',
 );

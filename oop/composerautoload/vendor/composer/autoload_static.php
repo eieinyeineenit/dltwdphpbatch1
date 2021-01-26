@@ -11,6 +11,7 @@ class ComposerStaticInit07b2b961cf2ea493669dab1d3ed457c6
         'class_admin' => __DIR__ . '/../..' . '/app/admin/class_admin.php',
         'class_auth' => __DIR__ . '/../..' . '/app/auth/class_auth.php',
         'class_migration' => __DIR__ . '/../..' . '/app/auth/migration/class_migration.php',
+        'class_news' => __DIR__ . '/../..' . '/info/class_news.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

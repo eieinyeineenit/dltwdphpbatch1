@@ -34,8 +34,8 @@ echo "<hr/>";
 //date/time format
 //date("format","timestamp")
 
-// $date=date("a",$time);
-echo "this is format a=" .date("a",$time);//am,pm
+$date=date("a",$time);
+echo "this is format a=" .$date;//am,pm
 echo "<br/>";
 $date=date("A",$time);
 echo "this is format A=" .$date;//AM,PM
